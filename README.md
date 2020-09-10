@@ -45,15 +45,16 @@ Sebelum pemodelan ada beberapa hal yang perlu dilakukan :
 1. Handling outlier pada dependant varible
 2. Feature selection untuk menentukan independent variable
 3. Menentukan model dengan regression model
-4. Evaluasi model
+4. Tuning model
+5. Evaluasi model
 
 Model machine learning yang paling bagus adalah RandomForestRegressor dengan nilai
-- RMSE Traning     = 46.956576
-- RMSE Test        = 47.608812	
-- R2_Score Test    = 0.524886
-- R2_Score Traning = 0.513424
+- RMSE Traning     = 47.012169
+- RMSE Test        = 47.518269	
+- R2_Score Test    = 0.523760
+- R2_Score Traning = 0.515273
 
-Model machine learning masih kurang bagus, namun ini bisa di-improve dengan menambah jumlah data yang relevan dalam menentukan target (price), seperti jumlah kamar tidur, luas kamar, akses ke business district dll
+Model machine learning masih kurang bagus, namun ini bisa di-improve dengan menambah jumlah data yang relevan dalam menentukan target (price), seperti jumlah kamar tidur, luas kamar, akses ke business district dll. Selain itu tuning paramater juga dapat dilakukan dengan menggunakan GridSearch untuk mencari parameter terbaik sehingga memperoleh model optimal namum metode ini sangat computationally expensive untuk digunakan
 
 ## Dashboard
 Saya mengguanakan Flask untuk membuat dashboard
