@@ -53,6 +53,8 @@ Model machine learning yang paling bagus adalah RandomForestRegressor dengan nil
 - R2_Score Test    = 0.524886
 - R2_Score Traning = 0.513424
 
+Model machine learning masih kurang bagus, namun ini bisa di-improve dengan menambah jumlah data yang relevan dalam menentukan target (price), seperti jumlah kamar tidur, luas kamar, akses ke business district dll
+
 ## Dashboard
 Saya mengguanakan Flask untuk membuat dashboard
 
