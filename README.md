@@ -30,11 +30,11 @@ https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data?select=AB_NYC_201
 
 ## Step
 Ada 3 langkah yang saya lakukan dalam dataset ini yaitu
-- Data Cleansing (Checking null-value and duplicated row)
+- Data Cleaning (Checking null-value and duplicated row)
 - Exploratory Data Analysis
 - Machine Learning Modelling
 
-### Data Cleansing
+### Data Cleaning
 Terdapat null value di kolom `reviews_per_month`, `last_review`, `host_name`, `name`. Null value di kolom `reviews_per_month`, `last_review` memiliki letak dan posisi yang sama. Kemudian saya cek dibagian `number_of_reviews`. Ternyata semua `number_of_reviews` yang nilainya 0, `reviews_per_month`, `last_review` nilainya jadi null. Artinya null di kedua kolom ini bisa diimpute dengan 0. Sisanya tidak dapat diimpute dengan apapun jadi saya biarkan terlebih dahulu. Kemudian saya cek duplicate row baik yang complete maupun incomplete. Setelah dicek ternyata data sudah tidak ada duplicate 
 
 ### Exploratory Data Analysis
